@@ -1,0 +1,85 @@
+@import '@carbon/type/scss/type';
+@import '@carbon/type/scss/font-face/mono';
+@import '@carbon/type/scss/font-face/sans';
+@include carbon--type-reset();
+@include carbon--font-face-mono();
+@include carbon--font-face-sans();
+
+
+// Text content
+
+.text_title_xlg {
+  font-size : 2.5rem;
+  line-height: 1.2;
+  color : $text-04;
+}
+
+.text_title_lg {
+  font-size : 2rem;
+  line-height: 1.2;
+  color : $text-04;
+}
+
+.text_title_md {
+  font-size : 1.5rem;
+  line-height: 1.2;
+  color : $text-04;
+}
+
+
+.text_title_msd {
+  font-size : 1.25rem;
+  line-height: 1.2;
+  color : $text-04;
+}
+
+.text_title_sm {
+  font-size : 0.875rem;
+  color : $text-04;
+  letter-spacing: 0.16px;
+  line-height: 1.29;
+}
+
+.text_content_sm {
+  font-size : 0.75rem;
+  color: $text-03;
+  line-height: 1rem;
+}
+.text_content_md {
+  font-size : 0.875rem;
+  color: $text-03;
+  line-height: 1rem;
+}
+
+.text_bold {
+  font-weight : 600
+}
+
+
+//Icon group
+.growth__icon {
+  margin-right: $spacing-01;
+}
+
+.growth__icon_green {
+  fill : $inverse-support-02;
+}
+
+.growth__icon_red {
+  fill : $danger-02;
+}
+
+.icon-color-blue{
+  fill : $link-01;
+  color : $link-01
+}
+
+.icon-color-white {
+  fill : $text-04;
+  color : $text-04
+}
+
+.icon-color-green {
+  fill : $inverse-support-02;
+  color : $inverse-support-02;
+}

@@ -1,0 +1,89 @@
+.dashboared__r3 {
+  padding-top: $spacing-09;
+  padding-bottom: $spacing-09;
+}
+
+.dashboard-content_header {
+  padding-top: $spacing-07;
+  color : $text-04;
+  border-bottom: 1px solid $active-secondary;
+}
+
+.dashboard-content_tab {
+  background : $ui-background;
+}
+
+.project__name-wrapper {
+  display :flex;
+  align-items: center;
+}
+
+.project__detail {
+  margin-top: $spacing-03;
+  display: flex;
+  height : 20px;
+}
+
+.project__creater {
+  display: flex;
+  align-items: center;
+  padding-right : $spacing-05;
+  border-right: 1px solid $active-secondary;
+}
+
+.project__modified {
+  display: flex;
+  align-items: center;
+  margin-left : $spacing-05;
+}
+
+.project__description {
+  margin-top : $spacing-07
+}
+.description__title-edit {
+  margin-left: $spacing-03;
+}
+
+.description__title {
+  display: flex;
+  align-items: center;
+}
+
+.project__description_content {
+  margin-top : $spacing-03
+}
+
+.project__details_wrapper {
+  display: flex;
+  justify-content : space-between
+}
+
+.project__detail_values {
+  width : 350px
+}
+
+.each__detail {
+  margin-top : $spacing-04;
+  display: flex;
+}
+
+.each__detail-item {
+  width: 170px;
+}
+.each__detail-value {
+  width : 100px;
+}
+.each__detail-growth{
+  width : 80px;
+  display: flex;
+}
+
+
+.add_btn {
+  width : 200px;
+}
+
+.drop__Btn {
+  color : $text-04;
+  width : 30px;
+}

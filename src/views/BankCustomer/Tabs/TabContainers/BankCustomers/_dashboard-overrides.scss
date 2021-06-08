@@ -1,0 +1,27 @@
+.tab--content_wrapper {
+  background-color: $ui-background;
+  padding : $spacing-05;
+  padding-bottom : $spacing-07;
+  width: 100%;
+}
+
+.score--panel {
+  background-color: #282828;
+  padding-top: $spacing-05;
+  padding-bottom : $spacing-06;
+}
+
+
+.board--title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.board--subtitle {
+  margin-top: $spacing-03;
+}
+
+.info-section {
+  margin-top : $spacing-02;
+  margin-bottom : $spacing-05;
+}
